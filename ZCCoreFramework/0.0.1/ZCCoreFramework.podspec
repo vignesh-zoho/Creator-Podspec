@@ -16,6 +16,7 @@ Pod::Spec.new do |s|
     s.dependency 'ReachabilitySwift'
     s.dependency 'ZMLKit'
     s.dependency 'SQLiteWrapper'      
+    s.dependency 'SQLite.swift'
     s.swift_version = '4'
 end 
 
