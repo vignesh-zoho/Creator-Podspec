@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|  
     s.name              = 'ZCCoreFramework'
-    s.version           = '0.0.1'
+    s.version           = '0.0.2'
     s.summary           = 'ZCCoreFramework that interacts with Zoho Creator Rest API'
     s.homepage          = 'https://creator.zoho.com/'
 
@@ -14,8 +14,8 @@ Pod::Spec.new do |s|
     s.dependency 'PromisesSwift', '1.2.3'
     s.dependency 'SwiftSoup'
     s.dependency 'ReachabilitySwift'
-    s.dependency 'ZMLKit'
-    s.dependency 'SQLiteWrapper'     
+    s.dependency 'ZMLKit'    
+    s.dependency 'SQLite.swift'
+    s.dependency 'SQLite.Wrapper'
     s.swift_version = '4'
 end 
-
