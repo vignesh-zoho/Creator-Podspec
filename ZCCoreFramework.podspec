@@ -14,9 +14,9 @@ Pod::Spec.new do |s|
     s.dependency 'PromisesSwift', '1.2.3'
     s.dependency 'SwiftSoup', '1.7.4'
     s.dependency 'ReachabilitySwift', '4.3.0'
-    s.dependency 'ZMLKit', '0.0.8'    
+    s.dependency 'ZMLKit', '0.0.9'    
     s.dependency 'SQLite.swift', '0.11.5'
-    s.dependency 'SQLite.Wrapper', '0.0.8'
+    s.dependency 'SQLite.Wrapper', '0.0.9'
     s.swift_version = '4'
 end 
 
